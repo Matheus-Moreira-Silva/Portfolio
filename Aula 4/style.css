@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:200,300,400,500,600,700,800,900&display=swap');
+
+
+
+main{
+    
+    display: flex;
+    height: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+main>div{
+    margin: 10vw;
+}
+.conteudo{
+    
+    justify-content: center;
+}
+
+
+.ola{
+    padding-bottom: 4vh;
+    font-size: 4vh;
+    font-family: 'roboto', sans-serif;
+}
+.nome{
+    text-align: center;
+    padding-bottom: 4vh;
+    font-size: 9vh;
+}
+
+.text{
+    font-family: 'roboto',  sans-serif;
+    font-size: 1.5rem;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+
+#foto{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 40%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
+a:visited{
+    text-decoration: none;
+}
